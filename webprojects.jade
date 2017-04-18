@@ -1,0 +1,52 @@
+doctype html
+//if lt IE 8 
+  html.no-js.ie.ie7(lang='en')  
+//if IE 8 
+  html.no-js.ie.ie8(lang='en')  
+// [if (gte IE 8)|!(IE)] <!
+html.no-js(lang='en')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    title Gradonsky
+    meta(name='description', content='')
+    meta(name='author', content='Janusz Gradonski')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    link(rel='stylesheet', href='css/default.css')
+    link(rel='stylesheet', href='css/layout.css')
+    link(rel='stylesheet', href='css/media-queries.css')
+    link(rel='stylesheet', href='css/magnific-popup.css')
+    script(src='js/modernizr.js')
+  body
+    header#home
+      .row.banner
+        .banner-text
+          h1.responsive-headline My Web Project
+
+          hr
+          ul.social
+            li
+              a(href='#')
+                i.fa.fa-facebook
+            li
+              a(href='#')
+                i.fa.fa-linkedin
+            li
+              a(href='#')
+                i.fa.fa-instagram
+            li
+              a(href='#')
+                i.fa.fa-soundcloud
+            li
+              a(href='#')
+                i.fa.fa-skype
+      div.blackbox
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script.
+      window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\\/script>')
+    script(type='text/javascript', src='js/jquery-migrate-1.2.1.min.js')
+    script(src='js/jquery.flexslider.js')
+    script(src='js/waypoints.js')
+    script(src='js/jquery.fittext.js')
+    script(src='js/magnific-popup.js')
+    script(src='js/init.js')

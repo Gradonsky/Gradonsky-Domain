@@ -1,0 +1,93 @@
+doctype html
+//if lt IE 8 
+  html.no-js.ie.ie7(lang='en')  
+//if IE 8 
+  html.no-js.ie.ie8(lang='en')  
+// [if (gte IE 8)|!(IE)] <!
+html.no-js(lang='en')
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    title Gradonsky
+    meta(name='description', content='')
+    meta(name='author', content='Janusz Gradonski')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    link(rel='stylesheet', href='css/default.css')
+    link(rel='stylesheet', href='css/layout.css')
+    link(rel='stylesheet', href='css/media-queries.css')
+    link(rel='stylesheet', href='css/magnific-popup.css')
+    script(src='js/modernizr.js')
+  body
+    header#home
+        .row.banner#section1
+          .banner-text
+            h1.responsive-headline I'm Gradonsky.
+            h3
+              | I'm a 
+              span graphic designer
+              | , 
+              span programmer
+              | ,  
+              span webdesigner 
+              | and  
+              span music producer 
+              |  creating awesome and
+              |             effective visual identities for companies of all sizes around the globe. 
+              | .
+            hr
+            h2.responsive-headline.white.hover-1
+              a(href="",onclick="document.getElementById('section1').style.display='none';return false;") Web Projects
+            hr
+            ul.social
+              li
+                a(href='https://www.facebook.com/Johny5608')
+                  i.fa.fa-facebook
+              li
+                a(href='https://www.linkedin.com/in/janusz-grado%C5%84ski-797899130/')
+                  i.fa.fa-linkedin
+              li
+                a(href='https://soundcloud.com/nervousofficial')
+                  i.fa.fa-soundcloud
+        .row.banner#section2
+          .banner-text
+            h1.responsive-headline My Web Projects
+            .grid
+
+              figure.effect-jazz
+                img(src='images/bal.png')
+                figcaption
+                  h2.vwhite Balszan (WIP)
+                  p Website for my friend which had an heart-attack
+                  a(href='Balszan/index.html')
+              figure.effect-jazz
+                img(src='images/11.jpg')
+                figcaption
+                  h2.vwhite HIFA
+                  p My diploma-project webite
+                  a(href='#')
+              figure.effect-jazz
+                img(src='images/nerrec.png')
+                figcaption
+                  h2.blacktext Nervous Records
+                  p.blacktext School Project
+                  a(href='Gradonski_20.05.2015/Website/index.php')
+              figure.effect-jazz
+                img(src='images/hitgag.png')
+                figcaption
+                  h2.blacktext HITgag (WIP)
+                  p.blacktext School Project
+                  a(href='hitGag/index.html')
+            hr
+            i.fa.fa-arrow-left.fontbigger
+            a(href="index.html").fontbigger Back
+    div.blackbox
+    
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+    script.
+      window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\\/script>')
+    script(type='text/javascript', src='js/jquery-migrate-1.2.1.min.js')
+    script(src='js/jquery.flexslider.js')
+    script(src='js/waypoints.js')
+    script(src='js/jquery.fittext.js')
+    script(src='js/magnific-popup.js')
+    script(src='js/init.js')
