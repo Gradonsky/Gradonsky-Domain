@@ -1,0 +1,128 @@
+body{
+    
+    background-color: 232323;    
+    
+}
+
+div#contact h1 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 35;
+    
+}
+div#contact p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    
+    font-size: 20;
+    
+}
+
+
+div#social{
+
+    min-height: 200px;
+}
+soci {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 35;
+}
+div#socialcontent{
+    font-family: 'Lato', sans-serif;
+    float:left;
+    font-size: 20;
+}
+
+img#rick {
+max-width:100%;
+max-height:100%;
+}	 
+
+ 
+
+
+
+img.facebook {
+
+    height: 100px;
+
+    margin-left: 38%;
+
+    margin-right: auto;   
+
+}
+
+img.soundcloud{
+
+    height:90px;
+
+    padding-left:15%;
+
+}
+
+#container {
+
+  padding-top:8%;
+
+  width: 50%;
+
+  margin-left:auto;
+
+  margin-right:auto;
+
+  height:55%;
+
+}
+
+
+
+th {
+
+	color: white;
+
+}
+
+
+
+#polina { 
+
+    width:auto;
+
+    height:auto;   
+
+    background: rgba(0,0,0,0.5);
+
+  
+
+}
+
+
+
+#navigation {
+
+   position:fixed;
+
+   left:0px;
+
+   bottom:0px;
+
+   height:50px;
+
+   width:100%;
+
+}
+
+
+
+/* IE 6 */
+
+* html #footer {
+
+   position:absolute;
+
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+
+}

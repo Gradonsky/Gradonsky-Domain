@@ -1,0 +1,26 @@
+<!--	
+<video autoplay  poster="video/tland.jpg" id="bgvid" loop >
+
+  
+        <source src="video/tland.mp4" type="video/mp4">
+
+    </video>
+
+   <a href="#" onclick="document.getElementById('bgvid').muted = true;">Mute sound</a> 
+
+    <script>
+
+var video = document.getElementById('bgvid');
+
+video.volume = 0.5;
+
+</script>
+
+
+	  <center><br>booking@rickvalaya.com</br></center>
+
+    <a href="https://www.facebook.com/rick.valaya"><img class="facebook" src="socialicons/facebook.png" /></a>
+
+     <a href="https://soundcloud.com/rick-valaya"><img class="soundcloud" src="socialicons/soundcloud.png" /></a>  
+
+-->	
