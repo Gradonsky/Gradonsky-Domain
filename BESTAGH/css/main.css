@@ -86,7 +86,7 @@
 header {
   position: relative;
   width: 100%;
-  height: 60%;
+  height: 70%;
   text-align: center; }
   header .header-content {
     position: relative;
@@ -290,7 +290,7 @@ header {
     right: 0;
     background: rgba(0, 97, 158, 0.9); }
   header .header-content {
-    padding: 200px 15px; }
+    padding: 300px 15px; }
     header .header-content .header-content-inner h1 {
       font-weight: 400;
       margin-top: 0;
